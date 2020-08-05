@@ -1,6 +1,6 @@
 *.log
 .idea
 *.pyc
-__pycache__
-venv
+__pycache__/
+venv/
 *.sqlite3
