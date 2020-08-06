@@ -18,8 +18,6 @@ class NewVisitorTest(unittest.TestCase):
 
         # She notices the page title and header mention to-do lists
         self.assertIn("To-Do", self.browser.title)
-        self.fail("Finish the test!")
-
 
 # She is invited to enter to-do item straight away
 
@@ -41,5 +39,6 @@ class NewVisitorTest(unittest.TestCase):
 
 # Satisfied, she goes back to sleep
 
+
 if __name__ == '__main__':
-    unittest.main(warnings="ignore")
+    unittest.main()
